@@ -59,4 +59,24 @@ public class FuncionesService {
         return result;
     }
 
+    // Función que contiene código duplicado
+    public void duplicatedFunction() {
+        int a = 5;
+        int b = 10;
+
+        // Bloque duplicado 1
+        if (a > b) {
+            System.out.println("A es mayor que B");
+        } else {
+            System.out.println("B es mayor o igual que A");
+        }
+
+        // Bloque duplicado 2 (idéntico al anterior)
+        if (a > b) {
+            System.out.println("A es mayor que B");
+        } else {
+            System.out.println("B es mayor o igual que A");
+        }
+    }
+
 }
