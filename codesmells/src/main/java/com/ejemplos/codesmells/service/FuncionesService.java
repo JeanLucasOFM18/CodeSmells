@@ -79,4 +79,12 @@ public class FuncionesService {
         }
     }
 
+    public void exampleFunction() {
+        int unusedVariable = 10; // Esta variable nunca se usa
+        String anotherUnusedVariable = "Esto no se usa"; // Esta tampoco se usa
+
+        int usedVariable = 5;
+        System.out.println(usedVariable); // Esta sí se usa
+    }
+
 }
