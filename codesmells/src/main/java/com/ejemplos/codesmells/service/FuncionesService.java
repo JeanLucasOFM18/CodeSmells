@@ -87,4 +87,18 @@ public class FuncionesService {
         System.out.println(usedVariable); // Esta sí se usa
     }
 
+    public void outerFunction() {
+        System.out.println("Esta es la función externa.");
+
+        // Función anidada
+        class InnerFunction {
+            public void innerMethod() {
+                System.out.println("Esta es la función anidada.");
+            }
+        }
+
+        InnerFunction inner = new InnerFunction();
+        inner.innerMethod(); // Llama a la función anidada
+    }
+
 }
