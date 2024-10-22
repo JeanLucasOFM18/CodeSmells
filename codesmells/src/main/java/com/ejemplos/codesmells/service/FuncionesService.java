@@ -1,5 +1,8 @@
 package com.ejemplos.codesmells.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class FuncionesService {
 
     // Función larga (demasiadas líneas y responsabilidades)
