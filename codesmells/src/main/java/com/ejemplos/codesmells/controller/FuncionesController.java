@@ -27,4 +27,9 @@ public class FuncionesController {
         return "hola";
     }
 
+    @GetMapping("/ingresar-justificativo2")
+    public String ingresarJustificativo2() {
+        return "justificativo2";
+    }
+
 }
