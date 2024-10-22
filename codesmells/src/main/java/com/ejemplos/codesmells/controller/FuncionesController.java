@@ -32,4 +32,9 @@ public class FuncionesController {
         return "justificativo2";
     }
 
+    @PostMapping("/justificativo2")
+    public String justificativo(String fecha, String rut, String ms) {
+        return "hola";
+    }
+
 }
